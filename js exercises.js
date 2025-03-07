@@ -25,3 +25,8 @@ while (num<=10) {
 }
 // 4. Write a JavaScript program that checks if a given number is even or odd and displays
 // the result in the browser console.
+if (num%2==0) {
+    console.log("It is even!");
+} else {
+    console.log(`The number ${num} is odd`);
+}
